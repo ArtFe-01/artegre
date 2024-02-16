@@ -1,0 +1,362 @@
+@font-face {
+    font-family: Zalmo;
+    src: url("/fonts/Daciandonarium-K7aJy.otf") format('truetype');
+}
+
+body {
+    font-family: Zalmo, serif;
+    font-size: 1rem;
+}
+
+.header, .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f3f3f3;
+}
+
+.main {
+    padding: 2rem;
+}
+
+.post {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #27854d;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(38, 133, 77);
+}
+
+@media (max-width: 600px) {
+    .header, .footer {
+        padding: 0.5rem;
+    }
+
+    .main {
+        padding: 1rem;
+    }
+
+    .post {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* form  */
+.fancy-text-box-container {
+    padding: 20px;
+    background-color: #f0f0f0; /* Light grey background for contrast */
+}
+
+.fancy-text-box {
+    width: 100%; /* Full width of the container */
+    padding: 10px 15px; /* Comfortable padding around text */
+    margin: 5px 0; /* Space above and below the text box */
+    box-sizing: border-box; /* Ensures padding does not increase the box's size */
+    border: 2px solid #ccc; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Gentle shadow for depth */
+    outline: none; /* Removes the default focus outline */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus effects */
+}
+
+.fancy-text-box:focus {
+    border-color: #27854d; /* Highlight color when focused */
+    box-shadow: 0px 0px 8px rgb(38, 133, 77); /* More prominent shadow when focused */
+}
+
+/* Quote box */
+.quote-box {
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 8px solid #27854d; /* Blue border on the left for emphasis */
+    background-color: #f9f9f9; /* Light grey background */
+    font-style: italic; /* Italicize text to indicate a quote */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 1.2rem; /* Slightly larger font size for importance */
+}
+
+.quote-author {
+    display: block; /* Display as block to ensure it appears on a new line */
+    margin-top: 10px; /* Space above the author */
+    text-align: right; /* Align author to the right */
+    font-style: normal; /* Override italic text for the author */
+    font-weight: bold; /* Bold text for emphasis */
+    font-size: 1rem; /* Reset font size for author */
+}
+
+
+.actions {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.actions button {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #27854d;
+    border-radius: 8px;
+    color: #fafafa;
+}
+/**/
+/**/
+.contact-box {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/*.email-link {*/
+/*    display: inline-block;*/
+/*    margin-top: 10px;*/
+/*    padding: 10px 15px;*/
+/*    background-color: #27854d;*/
+/*    color: #ffffff;*/
+/*    text-decoration: none;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.email-link:hover {*/
+/*    background-color: #27854d;*/
+/*}*/
+.contact-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact-box h2 {
+    color: #333;
+}
+
+.contact-box p {
+    color: #666;
+}
+
+.email-link, .telegram-link {
+    display: inline-block;
+    background-color: #27854d;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.email-link:hover, .telegram-link:hover {
+    background-color: #1b4129;
+}
+
+/**/
+
+
+
+
+/**/
+.doctrine-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.doctrine-box h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.doctrine-box p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.doctrine-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.doctrine-box ul li {
+    margin-bottom: 10px;
+}
+
+.doctrine-box ul li a {
+    color: #27854d;
+    text-decoration: none;
+}
+
+.doctrine-box ul li a:hover {
+    text-decoration: underline;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #27854d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.learn-more:hover {
+    background-color: #1b4129;
+}
+
+/**/
+.about-box {
+    background-color: #f0f0f0; /* Light grey background */
+    border: 2px solid #ddd; /* Slight border for definition */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    max-width: 600px; /* Max width to ensure readability */
+    margin: 20px auto; /* Centering the box */
+    font-family: 'Arial', sans-serif; /* Using a web-safe font */
+    color: #333; /* Dark grey text for readability */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.about-box h2 {
+    color: #27854d; /* A pleasing blue for the title */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.about-box p {
+    line-height: 1.6; /* Improving readability with more space between lines */
+}
+/**/
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 30px; /* Space between posts */
+    padding: 20px;
+    justify-content: center;
+}
+
+.post {
+    background: #ffffff; /* White background */
+    border: 1px solid #e1e1e1; /* Light border for the box */
+    border-radius: 10px; /* Rounded corners for the box */
+    overflow: hidden; /* Ensures nothing spills out of the box's rounded corners */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* More pronounced shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.post:hover {
+    transform: translateY(-5px); /* Slightly raise the post box on hover */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Increase shadow on hover for a lifting effect */
+}
+
+.post h2 {
+    background: linear-gradient(to right, #1b4129 0%, #27854d 100%); /* Gradient background for titles */
+    margin: 0;
+    padding: 15px; /* Padding inside the title */
+    color: white; /* White text color */
+    font-size: 1.5em;
+    border-radius: 10px 10px 0 0; /* Only round the top corners to match the box */
+}
+
+.post p {
+    padding: 15px; /* Padding inside the post box */
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Darker text color for contrast */
+}
+
+/* Adding a simple "read more" button */
+.read-more {
+    display: block;
+    width: max-content;
+    padding: 10px 15px;
+    margin: 10px auto 15px auto; /* Center the button */
+    background-color: #27854d; /* Button color */
+    color: #fff; /* Button text color */
+    border-radius: 20px; /* Rounded button */
+    text-align: center;
+    text-decoration: none; /* Remove underline from link */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.read-more:hover {
+    background-color: #1b4129; /* Change button color on hover */
+}
+
+/**/
+/* General styling for featured posts */
+.featured-posts {
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.featured-posts h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Grid layout for posts */
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.post {
+    background-color: #f9f9f9;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.post-title {
+    margin: 10px;
+    color: #27854d;
+}
+
+.post-excerpt {
+    padding: 0 10px;
+    color: #666;
+}
+
+.read-more {
+    display: block;
+    background-color: #27854d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.read-more:hover {
+    background-color: #1b4129;
+}
+/**/
